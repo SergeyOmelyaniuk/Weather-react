@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+## Task description:
+
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-0/fancy-weather.md
+
+## Link to the Demo:
+
+https://lucid-shirley-b75e23.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
