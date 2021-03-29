@@ -1,0 +1,50 @@
+.temperature {
+	display: flex;
+	height: 350px;
+	@media (max-width: 480px) {
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+	}
+	&__value {
+		width: 60%;
+		font-size: 190px;
+		@media (max-width: 1200px) {
+			font-size: 160px;
+		}
+		@media (max-width: 600px) {
+			font-size: 115px;
+		}
+		@media (max-width: 480px) {
+			width: 100%;
+			line-height: 150px;
+		}
+		text-align: center;
+		line-height: 350px;
+	}
+	&__block {
+		width: 40%;
+		@media (max-width: 480px) {
+			width: 100%;
+    		text-align: center;
+		}
+	}
+	&__property {
+		font-size: 22px;
+		@media (max-width: 1200px) {
+			font-size: 19px;
+		}
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+	&__property li {
+		margin-bottom: 10px;
+	}
+	&__icon {
+		height: 170px;
+		margin-bottom: 20px;
+		@media (max-width: 480px) {
+			margin-bottom: 0px;
+		}
+	}
+}

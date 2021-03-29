@@ -1,0 +1,7 @@
+.weather__location {
+  font-size: 44px;
+  margin-bottom: 10px;
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}

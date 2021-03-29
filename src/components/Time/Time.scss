@@ -1,0 +1,7 @@
+.weather__date {
+  font-size: 22px;
+  margin-bottom: 10px;
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}

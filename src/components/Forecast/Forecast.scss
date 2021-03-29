@@ -1,0 +1,37 @@
+.forecast-wrap {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 1200px) {
+		justify-content: space-around;
+	}
+	@media (max-width: 480px) {
+		text-align: center;
+	}
+	text-transform: uppercase;
+}
+
+.forecast {
+	&__day {
+		font-size: 22px;
+		@media (max-width: 480px) {
+			font-size: 14px;
+		}
+	}
+	&__temperature {
+		font-size: 70px;
+		@media (max-width: 1200px) {
+			font-size: 50px;
+		}
+		@media (max-width: 480px) {
+			font-size: 30px;
+		}
+		display: inline-block;
+	}
+	&__icon {
+		height: 70px;
+		@media (max-width: 1200px) {
+			height: 50px;
+		}
+	}
+}
